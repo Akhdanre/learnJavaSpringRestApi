@@ -1,4 +1,4 @@
-package com.learn.javaspring.entity;
+package com.learn.javaspring.belajarspringrestapi.entity;
 
 import java.util.List;
 

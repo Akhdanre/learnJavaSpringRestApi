@@ -1,4 +1,4 @@
-package com.learn.javaspring.model;
+package com.learn.javaspring.belajarspringrestapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

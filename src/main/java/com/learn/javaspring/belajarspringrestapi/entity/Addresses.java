@@ -1,4 +1,4 @@
-package com.learn.javaspring.entity;
+package com.learn.javaspring.belajarspringrestapi.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

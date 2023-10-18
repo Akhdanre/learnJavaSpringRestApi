@@ -1,4 +1,4 @@
-package com.learn.javaspring.entity;
+package com.learn.javaspring.belajarspringrestapi.entity;
 
 import java.util.List;
 
@@ -21,8 +21,8 @@ public class User {
 
     @Id
     private String username;
-    private String pasword;
-    private String nama;
+    private String password;
+    private String name;
 
     @OneToMany(mappedBy = "user")
     private List<Contact> contacts;

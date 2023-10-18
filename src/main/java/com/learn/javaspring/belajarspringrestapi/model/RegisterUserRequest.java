@@ -1,4 +1,4 @@
-package com.learn.javaspring.model;
+package com.learn.javaspring.belajarspringrestapi.model;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -18,7 +18,7 @@ public class RegisterUserRequest {
     @Size(max = 100)
     private String username; 
     @NotBlank
-    @Size(max = 100)
+    @Size(max = 30)
     private String password; 
     @NotBlank
     @Size(max = 100)
