@@ -23,6 +23,7 @@ public class User {
     private String username;
     private String password;
     private String name;
+    private String token;
 
     @OneToMany(mappedBy = "user")
     private List<Contact> contacts;
