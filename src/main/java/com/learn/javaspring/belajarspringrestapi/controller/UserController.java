@@ -27,12 +27,15 @@ public class UserController {
 
 
     @GetMapping(
-            path = "/api/user/current",
+            path = "/api/users/current",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public WebResponse<UserResponse> get(User user) {
         UserResponse userResponse = userService.get(user);
         return WebResponse.<UserResponse>builder().data(userResponse).build();
     }
+
+
+
 
 }
